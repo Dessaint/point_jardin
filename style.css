@@ -42,6 +42,10 @@ body {
     border-radius: 0px 0px 40px 40px;
 }
 
+.section_haut {
+    margin-top: 40px;
+}
+
 .section_bas {
     margin-top: 40px;
 }
