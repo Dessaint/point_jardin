@@ -2,6 +2,8 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8"/>
+		<script type ="text/javascript" src="./js/boostrap.min.js"></script>
+    	<link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 		<title>Point Jardin</title>
 		<meta name="description" content=""/>
@@ -17,43 +19,40 @@ require("./header.php");
 -->
 
 <section>
-	<div class="cont_cat">
-		<div class="section_haut">
-			<div class="section_img1 section"><a href="mineraux.php"><img src="./images/galets2.jpg" alt="Nos minéraux"/>
-                <div class="texte_section"><h2>NOS MINERAUX</h2></div></a>
-            </div>
-            
-            <div class="section_img2 section"><a href="accessoires.php"><img src="./images/gazon.jpg" alt="Nos accessoires"/>
-                <div class="texte_section"><h2>NOS ACCESSOIRES</h2></div></a>
-            </div>    
-		</div>
-        
-		<div class="section_bas">
-            <div class="section_img3 section"><a href="vegetaux.php"><img src="./images/ecorce1.jpg" alt="Nos végétaux"/>
-                <div class="texte_section"><h2>NOS VEGETAUX</h2></div></a>
-		    </div>
-            
-            <div class="section_img4 section"><a href="services.php"><img src="./images/logo_services.jpg" alt="Nos services"/>
-                <div class="texte_section"><h2>NOS SERVICES</h2></div></a>
-		</div>
-		</div>
-	</div>
+	<div class="row">
+  		<div class="col-xs-6 col-md-3">
+    		<a href="mineraux.php" class="thumbnail">
+      		<img src="./images/galets2.jpg" alt="Nos minéraux">
+      		<div class="texte_section"><h2>NOS MINERAUX</h2></div></a>
+    		</a>
+    	</div>
+    	<div class="col-xs-6 col-md-3">
+    		<a href="accessoires.php" class="thumbnail">
+      		<img src="./images/gazon.jpg" alt="Nos accessoires">
+      		<div class="texte_section"><h2>NOS ACCESSOIRES</h2></div></a>
+    		</a>
+    	</div>
+    	<div class="col-xs-6 col-md-3">
+    		<a href="vegetaux.php" class="thumbnail">
+      		<img src="./images/ecorce1.jpg" alt="Nos végétaux">
+      		<div class="texte_section"><h2>NOS VEGETAUX</h2></div></a>
+    		</a>
+    	</div>
+    	<div class="col-xs-6 col-md-3">
+    		<a href="services.php" class="thumbnail">
+      		<img src="./images/logo_services.jpg" alt="Nos services">
+      		<div class="texte_section"><h2>NOS SERVICES</h2></div></a>
+    		</a>
+    	</div>				
+  </div>
+
+
+
 </section>
 
 <footer>
-	<div class="cont_footer">
-		<div class="texte_footer">
-			<ul>
-				<li><a href="./contact.html">Contact</a></li>
-				<li><a href="./galerie.html">Galerie</a></li>
-				<li><a href="./entreprise.html">Qui sommes nous</a></li>
-			</ul>
-		</div>
-		<div class="cont_infos">
-			<div class="mentions"><a href="">Mentions légales</a></div>
-			<div class="design"><a href="">Design by</a></div>
-		</div>
-	</div>
+	
+	
 </footer>
 
 <!--
