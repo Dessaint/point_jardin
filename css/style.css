@@ -2,17 +2,21 @@
 
 body {
     
-    height: auto;
 }
 
 /* CONTAINER */
 
 
 /* HEADER */
+.header {
+    
+}
 
-/* NAVBAR */
 
 /* SECTION */
+.section {
+    margin-top: 300px;
+}
 
 /* FOOTER */
 
