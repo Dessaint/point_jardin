@@ -8,8 +8,27 @@ body {
 
 
 /* HEADER */
+.nav {
+    margin-top: 5px;
+    height: 65px;
+}
+
 .navbar-brand > img {
-    width: 200px;
+    width: 100px;
+    margin-top: -10px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: #76be41;
+} 
+
+.nav-pills a {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.nav > li > a {
+    color: #76be41;
 }
 
 .texte_section h2{
@@ -21,7 +40,7 @@ body {
 
 /* SECTION */
 .section {
-    margin-top: 300px;
+    margin-top: 250px;
 }
 
 .thumbnail {
@@ -34,7 +53,17 @@ a.thumbnail:hover {
 }
 
 .thumbnail img {
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 /* FOOTER */
+.img-responsive {
+    width: 40px;
+}
 
+.center-pills {
+    display: inline-block;
+}
+
+.footer nav-pills a{
+    margin-left: 50px;
+}
