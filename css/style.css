@@ -20,6 +20,7 @@ body {
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
     background-color: #76be41;
+    font-family: 'Nunito', sans-serif;
 } 
 
 .nav-pills a {
@@ -29,15 +30,12 @@ body {
 
 .nav > li > a {
     color: #76be41;
+    font-family: 'Nunito', sans-serif;
 }
 
 
-
-
-
-
 /* SECTION */
-
+/* Bandeau */
 .bandeau {
     margin-top: 70px;
     background-image: url("../images/bandeau_gazon.jpg");
@@ -45,10 +43,11 @@ body {
     height: 250px;
     width: auto;
     opacity: 0.9;
+    border-radius: 0px 0px 25px 25px;
 }
 
 .bienvenue {
-    padding-top: 30px;
+    padding-top: 40px;
     color: white;
 }
 
@@ -56,28 +55,42 @@ body {
     font-size: 30px;
     text-align: center;
     text-decoration: underline;
-}
+    font-family: 'Nunito', sans-serif;;
+ }   
 
 .bienvenue p {
     font-size: 20px;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
-.descriptif {
+.descriptif img {
+    width: 40px;
+    margin-top: 18px;
 }
+
+.descr-text li {
+    margin-top: 25px;
+    color: white;
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Section */
 
 .section {
     margin-top: 20px;
 }
 
 .row {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .texte_section h2{
     font-size: 20px;
     color: #76be41;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .thumbnail {
@@ -92,7 +105,32 @@ a.thumbnail:hover {
 .thumbnail img {
     border-radius: 20px 20px 0px 0px;
 }
+
+/* PAGE CONTACT */
+
+.page-contact {
+    margin-top: 100px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.photo img {
+    width: 100%;
+    margin-top: 120px;
+}
+
+/* Formulaire */
+
+.btn {
+    background-color: #76be41;
+    border-color: white;
+}
+
+.contact {
+    color: #76be41;
+}
+
 /* FOOTER */
+
 .img-responsive {
     width: 40px;
 }
@@ -101,6 +139,30 @@ a.thumbnail:hover {
     display: inline-block;
 }
 
+.footer {
+    margin-top: 10px;
+    width: auto;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+
 .footer nav-pills a{
     margin-left: 50px;
+}
+
+.footer nav-pills li{
+    font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+}
+
+.footer ul {
+    margin-top: -10px;
+}
+
+.list-inline li {
+    margin-top: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
 }
