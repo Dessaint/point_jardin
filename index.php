@@ -35,6 +35,16 @@
     </nav>
   </div>
 
+  <div class="bandeau">
+    <div class="texte_bienvenue">
+      <h1>Bienvenue chez Point Jardin</h1>
+      <p>Paul et Laurentine vous accueillent dans votre nouveau point de vente de matériaux pour l'aménagement du jardin.</p>
+    </div>
+    <div class="liste_descriptif">
+    </div>
+  </div>
+
+
   <div class="section">
   	<div class="row">
     		<div class="col-xs-6 col-md-3">
