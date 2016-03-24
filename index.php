@@ -20,18 +20,21 @@
   <div class="section">
 
     <div class="bandeau">
-      <div class="texte_bienvenue">
+          <div class="bienvenue col-md-6">
         <h1><b>Bienvenue chez Point Jardin</b></h1>
         <p><b>Paul et Laurentine vous accueillent dans votre nouveau point de vente de matériaux pour l'aménagement du jardin.</b></p>
-      </div>
-      <div class="liste_descriptif">
+          </div>
+    
+      
+          <div class="descriptif col-md-6">
         <ul>
-          <li><img src="./images/log_descr1.png"></li>
-          <li><img src=""></li>
-          <li><img src=""></li>
-          <li><img src=""></li>
+          <li><img src="./images/logo_descr1.png"></li>
+          <li><img src="./images/logo_descr2.png"></li>
+          <li><img src="./images/logo_descr3.png"></li>
+          <li><img src="./images/logo_descr4.png"></li>
         </ul>
-      </div>
+          </div>
+      
     </div>
 
   	<div class="row">

@@ -47,26 +47,23 @@ body {
     opacity: 0.9;
 }
 
-.texte_bienvenue {
+.bienvenue {
     padding-top: 30px;
-    width : 50%;
     color: white;
-    text-decoration: 
 }
 
-.texte_bienvenue h1 {
+.bienvenue h1 {
     font-size: 30px;
     text-align: center;
     text-decoration: underline;
 }
 
-.liste_descriptif {
-    width: 50%;
-}
-
-.texte_bienvenue p {
+.bienvenue p {
     font-size: 20px;
     text-align: center;
+}
+
+.descriptif {
 }
 
 .section {

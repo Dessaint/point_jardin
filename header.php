@@ -13,7 +13,7 @@
                   <li role="presentation"><a href="#">Nos végétaux</a></li>
                   <li role="presentation"><a href="#">Nos accessoires</a></li>
                   <li role="presentation"><a href="#">Nos services</a></li>
-                  <li role="presentation"><a href="#">Nous contacter</a></li>
+                  <li role="presentation"><a href="contact.php">Nous contacter</a></li>
                 </ul>
               </div>
         </div> 
