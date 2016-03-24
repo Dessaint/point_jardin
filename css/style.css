@@ -31,16 +31,56 @@ body {
     color: #76be41;
 }
 
+
+
+
+
+
+/* SECTION */
+
+.bandeau {
+    margin-top: 70px;
+    background-image: url("../images/bandeau_gazon.jpg");
+    background-size: cover;
+    height: 250px;
+    width: auto;
+    opacity: 0.9;
+}
+
+.texte_bienvenue {
+    padding-top: 30px;
+    width : 50%;
+    color: white;
+    text-decoration: 
+}
+
+.texte_bienvenue h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.liste_descriptif {
+    width: 50%;
+}
+
+.texte_bienvenue p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
 .texte_section h2{
     font-size: 20px;
     color: #76be41;
     text-align: center;
-}
-
-
-/* SECTION */
-.section {
-    margin-top: 250px;
 }
 
 .thumbnail {

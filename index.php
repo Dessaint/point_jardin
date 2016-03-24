@@ -18,6 +18,22 @@
       ?>
 
   <div class="section">
+
+    <div class="bandeau">
+      <div class="texte_bienvenue">
+        <h1><b>Bienvenue chez Point Jardin</b></h1>
+        <p><b>Paul et Laurentine vous accueillent dans votre nouveau point de vente de matériaux pour l'aménagement du jardin.</b></p>
+      </div>
+      <div class="liste_descriptif">
+        <ul>
+          <li><img src="./images/log_descr1.png"></li>
+          <li><img src=""></li>
+          <li><img src=""></li>
+          <li><img src=""></li>
+        </ul>
+      </div>
+    </div>
+
   	<div class="row">
     		<div class="col-xs-6 col-md-3">
       		<a href="mineraux.php" class="thumbnail">
