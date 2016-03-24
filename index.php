@@ -10,40 +10,12 @@
 	</head>
 	
 	<body>
+
 		<div class="container">
 
-
-  <div class="header">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-              <a class="navbar-brand" href="#">
-              <img alt="Brand" src="./images/logo_pj_header.png">
-              </a>
-          </div>
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav nav-pills">
-                  <li role="presentation" class="active"><a href="#">Accueil</a></li>
-                  <li role="presentation"><a href="#">Nos minéraux</a></li>
-                  <li role="presentation"><a href="#">Nos végétaux</a></li>
-                  <li role="presentation"><a href="#">Nos accessoires</a></li>
-                  <li role="presentation"><a href="#">Nos services</a></li>
-                  <li role="presentation"><a href="#">Nous contacter</a></li>
-                </ul>
-              </div>
-        </div> 
-    </nav>
-  </div>
-
-  <div class="bandeau">
-    <div class="texte_bienvenue">
-      <h1>Bienvenue chez Point Jardin</h1>
-      <p>Paul et Laurentine vous accueillent dans votre nouveau point de vente de matériaux pour l'aménagement du jardin.</p>
-    </div>
-    <div class="liste_descriptif">
-    </div>
-  </div>
-
+      <?php
+        include("header.php")
+      ?>
 
   <div class="section">
   	<div class="row">
@@ -74,31 +46,10 @@
     </div>
   </div>
 
-<div class="footer">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <ul class="nav nav-pills center-pills">
-                  <li><a href="#">Qui sommes nous ?</a></li>
-                  <li><a href="#">Galerie</a></li>
-                  <li><a href="#">Contacts</a></li>
-              </div>
-              <div class="col-sm-8 col-sm-offset-2 text-center">
-                <ul class="list-inline center-block">
-                  <li><a href="#"><img src="./images/maps.png" class="img-responsive"></a></li>
-                  <li><a href="#"><img src="./images/facebook.png" class="img-responsive"></a></li>
-                  <li><a href="#"><img src="./images/instagram.png" class="img-responsive"></a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="row" id="final-footer">
-                <div class="col-sm-6 text-left">
-                  Copyright © 2016 Point Jardin
-                </div>
-                <div class="col-sm-6 text-right">
-                  Design by Dessaint - Javanaud
-                </div>
-              </div>
-      </div><!--/footer-->
+     <?php
+        include("footer.php")
+      ?>
+
 
 		</div>
 	</body>
