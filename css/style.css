@@ -76,6 +76,44 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+/* Acualites */
+
+.actualites {
+    margin-top: 20px;
+    border : 2px solid grey;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #white;
+    color: white;
+}
+
+.actualites h1 {
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #76be41 ;
+    border-radius: 18px 18px 0px 0px;
+}
+
+.actualites p {
+    margin-top: -20px;
+    color: black;
+}
+
+.actualites img {
+    width: 100%;
+    margin-top: -60px;
+    margin-left: 20px;
+}
+
+/* Encart Facebook */
+
+.fb-page {
+    width: 250px;
+    height: 400px;
+    vertical-align: middle;
+}
+
 /* Section */
 
 .section {
@@ -113,9 +151,23 @@ a.thumbnail:hover {
     font-family: 'Nunito', sans-serif;
 }
 
-.photo img {
+.photo-contact img {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 20px;
+}
+
+.photo-contact .row {
+    margin-top: -10px;
+    color : #76be41;
+}
+
+.photo-contact h1 {
+    font-size: 20px;
+}
+
+.maps {
+    width: 900px;
+    margin-left: 10px;
 }
 
 /* Formulaire */
@@ -165,5 +217,12 @@ a.thumbnail:hover {
 
 .navbar {
     margin-bottom: 0px;
+}
+
+.footer span {
+    padding: 5px;
+    background-color: #76be41;
+    color: white;
+    border-radius: 5px;
 }
 

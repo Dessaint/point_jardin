@@ -51,7 +51,7 @@
           </div>
         </div>
       	
-        <div class="Actualites">
+        <div class="actualites">
           <div class="row">
             <div class="Actu-titre col-md-12">
               <h1>ACTUALITES !</h1>
