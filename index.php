@@ -11,6 +11,15 @@
 	</head>
 	
 	<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <?php
       include("header.php")
@@ -41,32 +50,59 @@
             </ul>
           </div>
         </div>
-
-      	<div class="row">
-        	<div class="col-xs-6 col-md-3">
-          	<a href="mineraux.php" class="thumbnail">
-              <img src="./images/galets2.jpg" alt="Nos minéraux">
-            	<div class="texte_section"><h2>NOS MINERAUX</h2></div>
-          	</a>
+      	
+        <div class="Actualites">
+          <div class="row">
+            <div class="Actu-titre col-md-12">
+              <h1>ACTUALITES !</h1>
+            </div>
           </div>
-        	<div class="col-xs-6 col-md-3">
-        		<a href="accessoires.php" class="thumbnail">
-          	 <img src="./images/gazon.jpg" alt="Nos accessoires">
-          		<div class="texte_section"><h2>NOS ACCESSOIRES</h2></div>
-        		</a>
-        	</div>
-        	<div class="col-xs-6 col-md-3">
-        		<a href="vegetaux.php" class="thumbnail">
-          	 <img src="./images/ecorce1.jpg" alt="Nos végétaux">
-          	 <div class="texte_section"><h2>NOS VEGETAUX</h2></div>
-        		</a>
-        	</div>
-        	<div class="col-xs-6 col-md-3">
-        		<a href="services.php" class="thumbnail">
-          	 <img src="./images/logo_services.jpg" alt="Nos services">
-          		<div class="texte_section"><h2>NOS SERVICES</h2></div>
-        		</a>
-        	</div>				
+          <div class="row">
+            <div class="Actu-logo col-md-2">
+              <img src="./images/l_etiquette-bon-plan.png" alt="Bon plan">
+            </div>
+            <div class="Actu-texte col-md-10">
+              <p>Le printemps est de retour, venez découvrir notre gamme de gazon directement à votre magasin !</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8">
+          	<div class="col-xs-12 col-md-6">
+            	<a href="mineraux.php" class="thumbnail">
+                <img src="./images/galets2.jpg" alt="Nos minéraux">
+              	<div class="texte_section"><h2>NOS MINERAUX</h2></div>
+            	</a>
+            </div>
+          	<div class="col-xs-12 col-md-6">
+          		<a href="accessoires.php" class="thumbnail">
+            	 <img src="./images/gazon.jpg" alt="Nos accessoires">
+            		<div class="texte_section"><h2>NOS ACCESSOIRES</h2></div>
+          		</a>
+          	</div>
+          	<div class="col-xs-12 col-md-6">
+          		<a href="vegetaux.php" class="thumbnail">
+            	 <img src="./images/ecorce1.jpg" alt="Nos végétaux">
+            	 <div class="texte_section"><h2>NOS VEGETAUX</h2></div>
+          		</a>
+          	</div>
+          	<div class="col-xs-12 col-md-6">
+          		<a href="services.php" class="thumbnail">
+            	 <img src="./images/logo_services.jpg" alt="Nos services">
+            		<div class="texte_section"><h2>NOS SERVICES</h2></div>
+          		</a>
+          	</div>
+          </div>
+          <div class="col-md-4">
+            <div class="fb-page col-md-6 hidden-xs" data-href="https://www.facebook.com/point-jardin" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+              <div class="fb-xfbml-parse-ignore">
+                <blockquote cite="https://www.facebook.com/point-jardin">
+                  <a href="https://www.facebook.com/point-jardin">Point Jardin</a>
+                </blockquote>
+              </div>
+            </div>
+          </div>			
         </div>
 
       </div>
