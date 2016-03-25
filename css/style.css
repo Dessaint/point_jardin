@@ -146,13 +146,13 @@ a.thumbnail:hover {
     border-top: 1px solid #e7e7e7;
 }
 
-.footer nav-pills a{
-    margin-left: 50px;
+.footer .row{
+    margin-top: 0px;
+    font-family: 'Nunito', sans-serif;
 }
 
-.footer nav-pills li{
-    font-family: 'Nunito', sans-serif;
-    margin-top: 30px;
+.footer nav-pills a{
+    margin-left: 50px;
 }
 
 .footer ul {
@@ -166,3 +166,4 @@ a.thumbnail:hover {
 .navbar {
     margin-bottom: 0px;
 }
+

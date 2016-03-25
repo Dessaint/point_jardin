@@ -1,12 +1,22 @@
 <div class="footer">
   <nav class="navbar navbar-default">
-  <div class="col-md-12 text-center">
-    <ul class="nav nav-pills center-pills">
-      <li><a href="#">Qui sommes nous ?</a></li>
-      <li><a href="#">Galerie</a></li>
-      <li><a href="contact.php">Contacts</a></li>
-    </ul>
-  </div>
+    <div class="row ligne_haut">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8 text-center">
+        <ul class="nav nav-pills center-pills">
+          <li><a href="#">Qui sommes nous ?</a></li>
+          <li><a href="#">Galerie</a></li>
+          <li><a href="contact.php">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <ul class="nav">
+          <li><span><b>02 37 63 50 22</b></span></li>
+        </ul> 
+      </div>
+    </div>
+
 
   <div class="col-sm-8 col-sm-offset-2 text-center">
     <ul class="list-inline center-block">
